@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e790252-d377-4c8a-af34-9c75e5628fb2" name="Changes" comment="Barre de recherche valide">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleindex.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleindex.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylemovie.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylemovie.css" afterDir="false" />
-    </list>
+    <list default="true" id="0e790252-d377-4c8a-af34-9c75e5628fb2" name="Changes" comment="Index du html avant ajout api" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,27 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Anas-Boulamlouj"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Anas-Boulamlouj/projet_cinema.git",
-    "accountId": "f5e13d3b-ca73-4cc2-961d-42aa772094f7"
-  }
-}]]></component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3,
@@ -59,15 +34,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Index.html.executor": "Debug",
-    "JavaScript Debug.movie.html.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.jsearch.js.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Rectification-de-la-barre-de-recherche",
+    "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -77,33 +49,9 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/anasb/AppData/Roaming/JetBrains/WebStorm2026.2/node/versions/24.22.1/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.jsearch.js">
-    <configuration name="Index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Site Cinema/Index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="movie.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Site Cinema/movie.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="jsearch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="jsearch.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Index.html" />
-      <item itemvalue="JavaScript Debug.movie.html" />
-      <item itemvalue="Node.js.jsearch.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.jsearch.js" />
-        <item itemvalue="JavaScript Debug.movie.html" />
-        <item itemvalue="JavaScript Debug.Index.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -118,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792586540944</updated>
-      <workItem from="1792586541977" duration="23058000" />
+      <workItem from="1792586541977" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="Index du html avant ajout api">
       <option name="closed" value="true" />
@@ -128,31 +76,7 @@
       <option name="project" value="LOCAL" />
       <updated>1792588652412</updated>
     </task>
-    <task id="LOCAL-00002" summary="Ajout des Bases du site avant implementation des images du film">
-      <option name="closed" value="true" />
-      <created>1792588931067</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1792588931067</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Ajout des Bases du site avant implementation des images du film">
-      <option name="closed" value="true" />
-      <created>1792591236957</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1792591236957</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Barre de recherche valide">
-      <option name="closed" value="true" />
-      <created>1792686593206</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1792686593206</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,8 +84,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Index du html avant ajout api" />
-    <MESSAGE value="Ajout des Bases du site avant implementation des images du film" />
-    <MESSAGE value="Barre de recherche valide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Barre de recherche valide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index du html avant ajout api" />
   </component>
 </project>
