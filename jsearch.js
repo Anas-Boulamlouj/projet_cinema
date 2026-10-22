@@ -1,3 +1,4 @@
+
 document.getElementById('searchInput').addEventListener('input', async function () {
     const input = document.getElementById('searchInput').value.trim().toLowerCase();
 
@@ -7,7 +8,7 @@ document.getElementById('searchInput').addEventListener('input', async function 
 
         try {
             const data = await fetchMoviesDetails(input);
-            if (data) {
+            if (data && data.Search) {
                 displayMovies(data.Search);
             } else {
                 filmDiv.innerHTML = `<p>No movies found for "${input}".</p>`;
@@ -16,39 +17,41 @@ document.getElementById('searchInput').addEventListener('input', async function 
             console.error("Error fetching search results:", error);
             filmDiv.innerHTML = `<p>An error occurred while searching for movies. Please try again later.</p>`;
         }
-    } else if (searchInput.length === 0) {
+    } else if (input.length === 0) {
         document.getElementById('films').innerHTML = '';
     }
 });
 
 function displayMovies(movies) {
     const filmDiv = document.getElementById('films');
-    filmDiv.innerHTML = ''; // Clear previous results
-}
-movies.forEach(movie => {
-    const film = document.createElement("div");
-    film.className = "film";
+    filmDiv.innerHTML = '';
 
-    const poster = document.createElement("img");
-    poster.src = movie.Poster !== "N/A" ? movie.Poster : "placeholder.png";
-    poster.alt = `${movie.Title} Poster`;
 
-    const name = document.createElement("p");
-    name.textContent = `Nom: ${movie.Title}`;
+    movies.forEach(movie => {
+        const film = document.createElement("div");
+        film.className = "film";
 
-    const year = document.createElement("p");
-    year.textContent = `Année: ${movie.Year}`;
+        const poster = document.createElement("img");
+        poster.src = movie.Poster !== "N/A" ? movie.Poster : "placeholder.png";
+        poster.alt = `${movie.Title} Poster`;
 
-    const lien = document.createElement("a");
-    lien.href = "movie.html";
-    lien.textContent = `Plus d'infos`;
-    lien.addEventListener("click", () => {
-        localStorage.setItem("selectedMovieID", movie.imdbID);
+        const name = document.createElement("p");
+        name.textContent = `Nom: ${movie.Title}`;
+
+        const year = document.createElement("p");
+        year.textContent = `Année: ${movie.Year}`;
+
+        const lien = document.createElement("a");
+        lien.href = "movie.html";
+        lien.textContent = `Plus d'infos`;
+        lien.addEventListener("click", () => {
+            localStorage.setItem("selectedMovieID", movie.imdbID);
+        });
+
+        film.appendChild(poster);
+        film.appendChild(name);
+        film.appendChild(year);
+        film.appendChild(lien);
+        filmDiv.appendChild(film);
     });
-
-    film.appendChild(poster);
-    film.appendChild(name);
-    film.appendChild(year);
-    film.appendChild(lien);
-    filmDiv.appendChild(film);
 }
