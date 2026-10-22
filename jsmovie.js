@@ -22,7 +22,7 @@ async function loadMovie() {
         const link = document.createElement("a");
         link.href = `http://www.omdbapi.com/?apikey=[yourkey]&`;
         link.target = "_blank";
-        link.textContent = "Voir sur IMDb";
+
 
         movieContainer.appendChild(poster);
         movieContainer.appendChild(title);
