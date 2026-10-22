@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #141414;
+    background-color: #aaa2a2;
     color: #e5e5e5;
 }
 
 .headband {
-    background-color: #141414;
-    color: #e50914;
+    background-color: #0e0a0a;
+    color: #edaaae;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #e50914;
+    border-bottom: 2px solid #1d0f2a;
 }
 
 .headband a {
@@ -85,7 +85,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: #451535;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -105,13 +105,13 @@ button#button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #e50914;
+    background-color: #51173e;
     color: #e5e5e5;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button#button:hover {
-    background-color: #b20610;
+    background-color: #9c1d1d;
     transform: scale(1.05);
 }

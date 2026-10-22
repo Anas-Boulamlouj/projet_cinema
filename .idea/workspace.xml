@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e790252-d377-4c8a-af34-9c75e5628fb2" name="Changes" comment="Index du html avant ajout api" />
+    <list default="true" id="0e790252-d377-4c8a-af34-9c75e5628fb2" name="Changes" comment="Index du html avant ajout api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleindex.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleindex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesearch.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3L0MTbOjnsgZCtD4yfymix37OdH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rectification-de-la-barre-de-recherche",
     "javascript.preferred.runtime.type.id": "node",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",

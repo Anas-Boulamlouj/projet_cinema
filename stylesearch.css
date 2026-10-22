@@ -16,7 +16,7 @@ body {
 .header {
     text-align: center;
     margin-bottom: 20px;
-    color: #e50914;
+    color: #838375;
 }
 
 .search-section {
@@ -95,13 +95,13 @@ button#load-more {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #e50914;
-    color: #c50606;
+    background-color: #51173e;
+    color: #51173e;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button#load-more:hover {
-    background-color: #b20610;
+    background-color: #51173e;
     transform: scale(1.05);
 }
