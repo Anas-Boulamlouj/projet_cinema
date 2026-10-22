@@ -8,7 +8,7 @@ document.getElementById('searchInput').addEventListener('input', async function 
 
         try {
             const data = await fetchMoviesDetails(input);
-            if (data && data.Search) { // Vérifie aussi que data.Search existe
+            if (data && data.Search) {
                 displayMovies(data.Search);
             } else {
                 filmDiv.innerHTML = `<p>No movies found for "${input}".</p>`;
@@ -17,16 +17,16 @@ document.getElementById('searchInput').addEventListener('input', async function 
             console.error("Error fetching search results:", error);
             filmDiv.innerHTML = `<p>An error occurred while searching for movies. Please try again later.</p>`;
         }
-    } else if (input.length === 0) { // Correction ici : utilisation de "input" au lieu de "searchInput"
+    } else if (input.length === 0) {
         document.getElementById('films').innerHTML = '';
     }
 });
 
 function displayMovies(movies) {
     const filmDiv = document.getElementById('films');
-    filmDiv.innerHTML = ''; // Clear previous results
+    filmDiv.innerHTML = '';
 
-    // La boucle est bien à l'intérieur de la fonction displayMovies
+
     movies.forEach(movie => {
         const film = document.createElement("div");
         film.className = "film";
@@ -53,39 +53,5 @@ function displayMovies(movies) {
         film.appendChild(year);
         film.appendChild(lien);
         filmDiv.appendChild(film);
-    }); // Fin de forEach
-} // Fin de displayMovies
-
-// Fonction pour afficher les résultats dans le DOM
-function displayResults(results) {
-    // Vider le conteneur
-    resultsContainer.innerHTML = '';
-
-    // Vérifier si l'API renvoie des résultats
-    if (!results || results.length === 0) {
-        resultsContainer.innerHTML = '<div class="no-results">Aucun résultat trouvé</div>';
-        return;
-    }
-
-    // Créer une liste pour les résultats
-    const ul = document.createElement('ul');
-
-    results.forEach(item => {
-        const li = document.createElement('li');
-        // Adaptez "item.title" selon la structure JSON renvoyée par votre API
-        li.textContent = item.title;
-
-        // Action au clic sur un résultat
-        li.addEventListener('click', () => {
-            searchInput.value = item.title;
-            resultsContainer.innerHTML = '';
-            resultsContainer.style.display = 'none';
-            // Vous pouvez rediriger l'utilisateur ici, ex: window.location.href = `/produit/${item.id}`;
-        });
-
-        ul.appendChild(li);
     });
-
-    resultsContainer.appendChild(ul);
-    resultsContainer.style.display = 'block';
 }
