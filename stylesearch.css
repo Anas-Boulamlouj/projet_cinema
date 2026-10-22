@@ -57,7 +57,7 @@ body {
 
 .film:hover {
     transform: scale(1.15);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 30px rgb(122 87 3);
 }
 
 
@@ -75,14 +75,14 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: #8c080f;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .film a:hover {
-    background-color: #b20610;
+    background-color: #70010d;
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
@@ -96,7 +96,7 @@ button#load-more {
     border: none;
     border-radius: 5px;
     background-color: #e50914;
-    color: #e5e5e5;
+    color: #c50606;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }

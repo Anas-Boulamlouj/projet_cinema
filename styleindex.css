@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #141414;
+    background-color: #a8a8a1;
     color: #e5e5e5;
 }
 
 .headband {
     background-color: #141414;
-    color: #e50914;
+    color: #51173e;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #e50914;
+    border-bottom: 2px solid #51173e;
 }
 
 .headband a {
@@ -85,14 +85,14 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: #51173e;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .film a:hover {
-    background-color: #b20610;
+    background-color: #51173e;
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
@@ -105,13 +105,13 @@ button#button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #e50914;
+    background-color: #51173e;
     color: #e5e5e5;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button#button:hover {
-    background-color: #b20610;
+    background-color: #838375;
     transform: scale(1.05);
 }
